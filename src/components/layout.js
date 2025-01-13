@@ -11,24 +11,33 @@ import {
 const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
+      
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
-              Home
+              Projects
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/resources" className={navLinkText}>
+              Resources
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
-              About
+              About Me
             </Link>
           </li>
         </ul>
       </nav>
+
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
+
+
     </div>
   )
 }

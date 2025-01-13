@@ -8,6 +8,11 @@
     color: rebeccapurple;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
