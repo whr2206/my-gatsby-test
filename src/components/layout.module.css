@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
 .container {
     margin: auto;
     max-width: 500px;
@@ -10,13 +12,15 @@
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
+    justify-content: flex-end;
 }
 
 .nav-link-item {
@@ -25,4 +29,7 @@ nav {
 
 .nav-link-text {
     color: black;
+    text-decoration: none;
+    font-family: 'jura', 'serif';
+    font-weight: 500;
 }
