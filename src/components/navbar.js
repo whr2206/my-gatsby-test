@@ -2,12 +2,11 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import {
   container,
-  heading,
   navBar,
   navLinks,
   navLinkItem,
   navLinkText
-} from './layout.module.css'
+} from './navbar.module.css'
 
 import { FaGithub } from 'react-icons/fa';
 import { CgDarkMode } from "react-icons/cg";
@@ -50,11 +49,6 @@ const Layout = ({ pageTitle, children }) => {
           </li>
         </ul>
       </nav>
-
-      <main>
-        <h1 className={heading}>{pageTitle}</h1>
-        {children}
-      </main>
 
     </div>
   )
