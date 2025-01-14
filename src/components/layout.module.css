@@ -2,8 +2,6 @@
 
 .container {
     margin: auto;
-    max-width: 500px;
-    font-family: sans-serif;
 }
 
 .heading {
@@ -12,15 +10,25 @@
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end; /* align items to the right */
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0.5rem;
+    }
+    .nav-link-item {
+      margin-bottom: 0.5rem;
+    }
+  }
 
 .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
-    justify-content: flex-end;
 }
 
 .nav-link-item {
@@ -32,4 +40,9 @@ nav {
     text-decoration: none;
     font-family: 'jura', 'serif';
     font-weight: 500;
+    font-size: 1em;
+}
+
+.nav-link-text:hover {
+    text-decoration: underline;
 }

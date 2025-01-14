@@ -56,7 +56,6 @@ const Layout = ({ pageTitle, children }) => {
         {children}
       </main>
 
-
     </div>
   )
 }
