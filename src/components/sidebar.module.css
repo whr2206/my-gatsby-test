@@ -4,6 +4,8 @@
     margin: auto;
 }
 
-p {
-    color: blue;
+.sideNav {
+    box-sizing: border-box;
+    width: 20%;
+    background-color: bisque;
 }
