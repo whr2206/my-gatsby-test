@@ -15,3 +15,28 @@
 .sideHeading {
     font-weight: 700;
 }
+
+.postLink {
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.postLink:hover {
+    text-decoration: underline;
+}
+
+.smallDivider {
+    border-bottom: 1px slategray;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.rssLink {
+    display: block;
+}
+
+.favoritePosts {
+    padding-left: 0px;
+}
