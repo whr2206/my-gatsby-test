@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Button from './button'
 import {
   sideNav,
   sideHeading
@@ -12,6 +13,13 @@ import {
         <h4 className={sideHeading}>Stay in Touch</h4>
           <p>Know when I make something new!</p>
         <h4 className={sideHeading}>My Favorite Posts</h4>
+          <ul>
+            <li>Here's a post</li>
+            <li>Another post is here</li>
+              <Button onClick={() => console.log("Button clicked")}>Click me!</Button>
+            <li>Wow! Yet again, a post</li>
+            <li>Amazing! So many posts here.</li>
+          </ul>
       </div>
     );
   };
