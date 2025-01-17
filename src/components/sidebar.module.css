@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 
+* {
+    outline: 1px solid blue;
+  }
+
 .container {
     margin: auto;
 }
@@ -7,13 +11,27 @@
 .sideNav {
     box-sizing: border-box;
     width: 20%;
-    background-color: bisque;
     padding: .5rem 2rem;
     font-family: 'jura', 'serif';
 }
 
+
+/* Add sliding transition to side nav when below tablet size */
+.sideNav {
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+@media (max-width: 1024px) {
+    .sideNav {
+      opacity: 0;
+      transform: translateX(-100%);
+      pointer-events: none;
+    }
+}
+
 .sideHeading {
     font-weight: 700;
+    margin-bottom: -.7em;
 }
 
 .postLink {
