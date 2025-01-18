@@ -6,17 +6,31 @@ import ArticleCard from '../components/twocolcard'
 
 import { FaAlipay } from 'react-icons/fa6'
 
+import {
+  container,
+  mainContent,
+  articleContainer
+} from './index.css'
+
 // Step 2: Define your component
 const IndexPage = () => {
   return (
       <>
-      <Navbar />
-      <Sidebar />
-      <ArticleCard
-        image={<FaAlipay size={64} />}
-        title="Article Title"
-        excerpt="This is a brief summary of the article."
-      />
+
+      <div className={container}>
+        <Navbar />
+          <div className={mainContent}>
+            <Sidebar />
+              <div className={articleContainer}>
+                <ArticleCard
+                  image={<FaAlipay size={64} />}
+                  title="Article Title"
+                  excerpt="This is a brief summary of the article."
+                />
+              </div>
+          </div>
+      </div>
+
       </>
   )
 }
