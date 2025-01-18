@@ -10,7 +10,7 @@ import {
   container,
   mainContent,
   articleContainer
-} from './index.css'
+} from './index.module.css'
 
 // Step 2: Define your component
 const IndexPage = () => {

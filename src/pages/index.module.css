@@ -3,14 +3,14 @@
     margin: 0 auto;
 }
   
-.main-content {
+.mainContent {
     display: flex;
 }
   
-.sidebar {
+.Sidebar {
     width: 20%;
   }
   
-.article-container {
+.articleContainer {
     width: 80%;
   }
