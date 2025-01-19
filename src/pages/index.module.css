@@ -3,14 +3,35 @@
     margin: 0 auto;
 }
   
-.mainContent {
-    display: flex;
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Adjust the column ratio as needed */
+  gap: 20px; /* Add a gap between the sidebar and content */
+  margin-top: 3em;
 }
-  
-.Sidebar {
-    width: 20%;
+
+/* Make the layout responsive by adjusting the grid template columns based on screen size */
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr; /* Stack the sidebar and content on smaller screens */
   }
-  
-.articleContainer {
-    width: 80%;
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+  gap: 20px; /* Add a gap between articles */
+}
+
+
+@media (max-width: 768px) {
+  .article-container {
+    grid-template-columns: repeat(2, 1fr); /* Reduce to 2 columns on smaller screens */
   }
+}
+
+@media (max-width: 480px) {
+  .article-container {
+    grid-template-columns: 1fr; /* Stack articles on very small screens */
+  }
+}

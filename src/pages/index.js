@@ -27,6 +27,16 @@ const IndexPage = () => {
                   title="Article Title"
                   excerpt="This is a brief summary of the article."
                 />
+                  <ArticleCard
+                  image={<FaAlipay size={64} />}
+                  title="Article Title"
+                  excerpt="This is a brief summary of the article."
+                />
+                  <ArticleCard
+                  image={<FaAlipay size={64} />}
+                  title="Article Title"
+                  excerpt="This is a brief summary of the article."
+                />
               </div>
           </div>
       </div>
