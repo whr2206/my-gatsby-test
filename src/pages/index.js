@@ -23,19 +23,34 @@ const IndexPage = () => {
             <Sidebar />
               <div className={articleContainer}>
                 <ArticleCard
-                  image={<FaAlipay size={64} />}
-                  title="Article Title"
-                  excerpt="This is a brief summary of the article."
+                  image={<FaAlipay size={48} />}
+                  title="A Longer Article Title with Details"
+
                 />
                   <ArticleCard
-                  image={<FaAlipay size={64} />}
-                  title="Article Title"
-                  excerpt="This is a brief summary of the article."
+                  image={<FaAlipay size={48} />}
+                  title="A Longer Article Title with Details"
+
                 />
                   <ArticleCard
-                  image={<FaAlipay size={64} />}
-                  title="Article Title"
-                  excerpt="This is a brief summary of the article."
+                  image={<FaAlipay size={48} />}
+                  title="A Longer Article Title with Details"
+
+                />
+                 <ArticleCard
+                  image={<FaAlipay size={48} />}
+                  title="A Longer Article Title with Details"
+
+                />
+                 <ArticleCard
+                  image={<FaAlipay size={48} />}
+                  title="A Longer Article Title with Details"
+
+                />
+                 <ArticleCard
+                  image={<FaAlipay size={48} />}
+                  title="A Longer Article Title with Details"
+
                 />
               </div>
           </div>

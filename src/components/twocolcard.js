@@ -12,8 +12,7 @@ const ArticleCard = ({ image, title, excerpt }) => {
         {image}
       </div>
       <div className={articleContent}>
-        <h2>{title}</h2>
-        <p>{excerpt}</p>
+        {title}
       </div>
     </div>
   );

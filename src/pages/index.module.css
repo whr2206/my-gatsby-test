@@ -1,3 +1,7 @@
+/* * {
+  outline: 1px solid blue; 
+} */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -8,6 +12,12 @@
   grid-template-columns: 1fr 2fr; /* Adjust the column ratio as needed */
   gap: 20px; /* Add a gap between the sidebar and content */
   margin-top: 3em;
+}
+
+@media (max-width: 1024px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Make the layout responsive by adjusting the grid template columns based on screen size */
