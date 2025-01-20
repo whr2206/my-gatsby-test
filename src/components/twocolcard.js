@@ -7,14 +7,14 @@ import {
 
 const ArticleCard = ({ image, title, excerpt }) => {
   return (
-    <div className={articleBox}>
-      <div className={articleImage}>
-        {image}
+      <div className={articleBox}>
+        <div className={articleImage}>
+          {image}
+        </div>
+        <div className={articleContent}>
+          {title}
+        </div>
       </div>
-      <div className={articleContent}>
-        {title}
-      </div>
-    </div>
   );
 };
 

@@ -15,7 +15,7 @@ nav {
     margin: 0 auto; /* center the navbar horizontally */
     padding: 0 2rem; /* add padding to the left and right sides */
     box-sizing: border-box; /* include padding in width calculation */
-    max-width: 1200px; /* set maximum width */
+    max-width: 1600px; /* set maximum width */
     border-bottom: 1px solid black;
 }
 

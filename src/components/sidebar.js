@@ -28,7 +28,7 @@ import {
             <li className={postLink}>Here's a post</li>
             <li className={postLink}>Wow! Yet again, a post</li>
             <li className={postLink}>Amazing! So many posts here.</li>
-            <li classname={postLink}>Another post is here too. Wow.</li>
+            <li className={postLink}>Another post is here too. Wow.</li>
           </ul>
       </div>
     );

@@ -2,7 +2,7 @@
 
 * {
     /*outline: 1px solid blue; */
-    background-color: #f7f0db;
+    background-color: #f8f5d7;
   }
 
 .container {
@@ -26,6 +26,7 @@
       opacity: 0;
       transform: translateX(-100%);
       pointer-events: none;
+      display: none;
     }
 }
 

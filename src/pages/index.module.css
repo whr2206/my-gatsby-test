@@ -3,14 +3,14 @@
 } */
 
 .container {
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 90%;
 }
   
 .main-content {
   display: grid;
   grid-template-columns: 1fr 2fr; /* Adjust the column ratio as needed */
-  gap: 20px; /* Add a gap between the sidebar and content */
+  gap: 1.2rem; /* Add a gap between the sidebar and content */
   margin-top: 3em;
 }
 
